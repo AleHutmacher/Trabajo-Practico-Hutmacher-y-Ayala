@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  color: #38220f;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-top {
+  background-color: #ece0d1;
+}
+
+.header-nav {
+  background-color: #dbc1ac;
+}
+
+body {
+  background-color: #967259;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  background-color: rgba(240, 248, 255, 0.308);
+}
+
+.banner {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 50vh;
+  width: 100%;
+}
+
+#banner-1 {
+  background-image: url(./assets/Img/coffee.jfif);
+}
+
+#banner-2 {
+  background-image: url(./assets/Img/coffee-cup.jpg);
+}
+
+#banner-3 {
+  background-image: url(./assets/Img/caffeine.jpg);
+  background-size: cover;
+}
+
+.nav-li {
+  transition: all 0.3s;
+}
+
+.nav-li:hover {
+  transform: scale(1.2);
+}
+
+.horarios{
+    width: 560px;
+}
